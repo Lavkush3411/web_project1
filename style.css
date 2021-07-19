@@ -57,10 +57,84 @@ padding: 20px;
         z-index: -1;
         opacity: 0;
     }
+    .explore__menu__bg{
+        width: 100%;
+    }
+    .explore__menu__cards{
+        width: 100%;
+    }
+    .menu__card{
+        width: 100%;
+        background-color: papayawhip;
+        margin-bottom: 20px;
+        border-radius: 10px 10px 0px 0px;
+        
+    }
+    .menu__image{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .menu__item__discription{
+        padding: 20px;
+    }
+    .explore__title{
+        margin-top: 30px;
+        text-align: center;
+    }
+    #menu__button__view{
+        width: 100%;
+    }
+    
+    .restaurent1__image,.restaurent2__image,.restaurent3__image,.restaurent4__image{
+        width: 100%;
+    }
+    .restaurents__container{
+        margin-top: 40px;
+    }
+    .form__inputs{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+    }
 
-
-
-
+    .email{
+        border-radius: 2px;
+        border:2px solid rgb(248, 178, 189) ;
+        background-color: rgb(250, 234, 234);
+        width: 70%;
+        height: 30px;
+    }
+    #form__button{
+        height: 55px;
+        width: 100px;
+    }
+    
+    .slogan__sec{
+        position: relative;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 8px;
+    }
+    .slogan__img{
+        width: 100%;
+        filter: blur(3px);
+    }
+    .slogan__text{
+        position: absolute;
+        text-align: center;
+        color: white;
+        top: 50px;
+        
+    }
+    .endnote__brand{
+        text-align: center;
+    }
+    .footer__list{
+        text-align: center;
+        padding: 4px;
+        
+    }
 @media(min-width:768px){
     .navbar{
         justify-content: space-between;
@@ -101,6 +175,103 @@ padding: 20px;
         width: 90%;
         z-index: -1;
         opacity: 1;
+    }
+    .explore{
+        width: 100%;
+        position: relative;
+    }
+    .explore__menu__bg{
+        background-image: linear-gradient(to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%);
+        margin-top: 20px;
+        z-index: -1;
+        transform: skewY(-3deg);
+        height: 100%;
+        position: absolute;
+    }
+    .explore__menu{
+        padding: 0px 10px;
+    }
+    .explore__menu__cards{
+        display: flex;
+        gap: 10px;
+    }
+    .explore__title{
+        margin: 50px 0px 30px 0px;
+    }
+    #menu__card__mid{
+        margin-top: -20px;
+        margin-bottom: 40px;
+    }
+    .restaurents__container{
+        display: flex;
+        align-items: center;
+        margin-top: 70px;
+        gap: 20px;
+    }
+    .restaurent__title{
+        font-size: 30px;
+    }
+    .restaurents{
+        width: 100%;
+    }
+    .restaurents__row1{
+        display: flex;
+        gap: 10px;
+        align-items: baseline;
+       
+    }
+    .restaurents__row2{
+        display: flex;
+        gap: 10px;
+    }
+    .restaurent1,.restaurent4{
+        width: 100%;
+        
+    }
+    .restaurent2,.restaurent3{
+        width: 120%;
+    }
+    .form__title{
+        margin-top: 40px;
+        text-align: center;
+    }
+    #form__button{
+    width: 200px;
+
+    }
+    .email{
+        width: 500px;
+    }
+    .slogan{
+        display: flex;
+        justify-content: center;
+        padding: 60px;
+    }
+    .slogan__sec{
+        width:700px ;
+        height: 250px;
+        overflow: hidden;
+    }
+    .slogan__img{
+        width:fit-content;
+        filter: blur(0px);
+    }
+    .slogan__text{
+        font-size: 30px;
+    }
+    .endnote{
+        background-image: linear-gradient(to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;border-radius: 10px;
+        margin: 0px  5px;
     }
     
 
